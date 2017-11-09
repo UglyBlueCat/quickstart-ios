@@ -16,7 +16,7 @@
 
 #import "AppDelegate.h"
 
-@import Firebase;
+#import "Firebase.h"
 
 @implementation AppDelegate
 
