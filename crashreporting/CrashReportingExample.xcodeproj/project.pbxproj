@@ -275,6 +275,7 @@
 				5F5A53481ADE670C00F81DF0 /* Sources */,
 				5F5A53491ADE670C00F81DF0 /* Frameworks */,
 				5F5A534A1ADE670C00F81DF0 /* Resources */,
+				99416AB11FB48709001E7147 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -407,6 +408,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99416AB11FB48709001E7147 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Replace this with the GOOGLE_APP_ID from your GoogleService-Info.plist file\nGOOGLE_APP_ID=1:249966479520:ios:81a849e0ad97c878\n\n# Replace the /Path/To/ServiceAccount.json with the path to the key you just downloaded\n\"${SRCROOT}\"/Firebase/Crash/upload-sym -vv \"${SRCROOT}\"/fir-quickstart-6d033-firebase-crashreporting-0emh2-ab68f5f6dc.json";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F5A53481ADE670C00F81DF0 /* Sources */ = {
