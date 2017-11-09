@@ -39,6 +39,7 @@
 		99416AAC1FB480A1001E7147 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99416A981FB480A1001E7147 /* GTMSessionFetcher.framework */; };
 		99416AAD1FB480A1001E7147 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99416A991FB480A1001E7147 /* Protobuf.framework */; };
 		99416AAE1FB480A1001E7147 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 99416A9A1FB480A1001E7147 /* README.md */; };
+		99416AB01FB48400001E7147 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99416AAF1FB48400001E7147 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		99416A981FB480A1001E7147 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
 		99416A991FB480A1001E7147 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
 		99416A9A1FB480A1001E7147 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		99416AAF1FB48400001E7147 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		5F5A534F1ADE670C00F81DF0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				99416AAF1FB48400001E7147 /* GoogleService-Info.plist */,
 				5F5A53591ADE670C00F81DF0 /* Main.storyboard */,
 				5F5A53501ADE670C00F81DF0 /* Info.plist */,
 				5F5A53511ADE670C00F81DF0 /* main.m */,
@@ -376,6 +379,7 @@
 				99416AA91FB480A1001E7147 /* upload-sym.sh in Resources */,
 				99416AA31FB480A1001E7147 /* dump_syms in Resources */,
 				99416AA41FB480A1001E7147 /* extract-keys in Resources */,
+				99416AB01FB48400001E7147 /* GoogleService-Info.plist in Resources */,
 				5F99610C1AE0CF4F0034F503 /* LaunchScreen.xib in Resources */,
 				5F99610A1AE0CF4F0034F503 /* Images.xcassets in Resources */,
 				99416AA81FB480A1001E7147 /* upload-sym-util.bash in Resources */,
