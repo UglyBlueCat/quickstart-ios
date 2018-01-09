@@ -1,6 +1,8 @@
 # Output a clickable message.  This will not count as a warning or
 # error.
 
+set -x
+
 xcnote () {
     echo >&2 "${BASH_SOURCE[1]}:${BASH_LINENO[0]}: note: $*"
 }
